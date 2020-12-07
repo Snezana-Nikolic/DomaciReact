@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Muli";
+    src: url("../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../assets/fonts/Playfair/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face{
+   font-family: 'BebasNeue';
+    src: url('../assets/fonts/Bebas/BebasNeue-Regular.ttf');
+  
+   }
+
+.nav {
+    height: 100px;
+    weight: 100%;
+    .logo1 {
+        background-image: url("../assets/images/logo1.png");
+        width: 126px;
+        height: 67px;
+        margin-left: 100px;
+        object-fit: contain;
+    }
+
+    .item {
+        padding: 37px 0 !important;
+        margin: 0 30px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-family: "Muli";
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .active.item {
+        border-bottom: 4px solid #ffffff;
+        padding-bottom: 40px;
+        border-color: #ffffff;
+    }
+    .item:hover {
+        border-bottom: 4px solid #ffffff;
+        padding-bottom: 40px;
+        text-decoration-line: none;
+        text-decoration-style: none;
+        color: #ffffff;
+    }
+}
+
+.over {
+    overflow: hidden;
+
+    .backgr {
+        background: url("../assets/images/Group101.png");
+
+        background-size: cover;
+
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 1920px;
+        height: 1080px;
+        object-fit: contain;
+    }
+    .text {
+        padding-top: 250px;
+        text-align: left;
+        padding-left: 110px;
+    }
+}
+.header_desc {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+
+    text-align: left;
+}
+
+.header_content {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: left;
+}
+.header_desc2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+
+    text-align: left;
+}
+
+.btn-doniraj {
+    border-radius: 38px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 20px 80px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    text-align: left;
+    .btn-oval {
+        font-family: "Muli", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+}
+.btn-doniraj:hover {
+    text-decoration: none;
+    border-bottom-style: none;
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.4s ease;
+    font-weight: bold;
+    .btn-oval {
+        text-decoration: none;
+        border-bottom-style: none;
+        color: #000000;
+        background-color: #ffffff;
+        transition: 0.4s ease;
+        font-weight: bold;
+    }
+}
+
+.nav.scroll1 {
+    background-color: #ffffff;
+    height: 110px;
+    weight: 100%;
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        background-image: url("../assets/images/logo2.png");
+        width: 126px;
+        height: 67px;
+        margin-left: 10px;
+        object-fit: contain;
+    }
+    .item {
+        padding: 37px 0 !important;
+        margin: 0 30px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-family: "Muli";
+        font-size: 18px;
+        color: #8b92ab !important;
+    }
+
+    .active.item {
+        border-bottom: 4px solid #41bdd5;
+        padding-bottom: 40px;
+    }
+    .item:hover {
+        border-bottom: 4px solid #41bdd5;
+        padding-bottom: 40px;
+
+        text-decoration-line: none;
+        text-decoration-style: none;
+        color: #8b92ab !important;
+    }
+}
+
+.pozadina-br {
+    border-radius: 20px;
+    box-shadow: 0 3px 18px 0 rgba(6, 170, 202, 0.3);
+    background: linear-gradient(243deg, #06aaca, #00859f);
+    padding: 120px;
+    position: absolute;
+    
+    z-index: 1000;
+    left: 0;
+    height: 429px;
+    top: -30px;
+    .brojac-col{
+        text-align: right;
+        color: #ffffff;
+        
+      
+    .brojac {
+        width: 261px;
+        height: 220px;
+        
+        font-family: 'BebasNeue', sans-serif;
+        font-size: 220px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.18;
+        letter-spacing: normal;
+       
+    }
+}
+.brojac-t{
+    margin: 75px 5px 0 0; 
+}
+.broj-doniranih-artikala{
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: left;
+    padding-left: 20px;
+    z-index: 1000;
+    color: #ffffff;
+}
+}
+.progress-text{
+    font-size: 70px;
+    color: #ffffff;
+    font-family: 'BebasNeue';
+    // margin-left: 50px;
+    max-height: 307px;
+    max-width: 307;
+    
+}
+
+
+// .p-style{
+//     font-family: 'Muli', sans-serif;
+//     font-size: 18px;
+//     text-align: left;
+//     padding-bottom: 20px;
+//     font-weight: normal;
+//   }
+//   .mi-smo-spremni-a-vi{
+//     font-family: 'PlayfairDisplay';
+//     font-size: 36px;
+//     text-align: left;
+//     font-weight: bold;
+//   }
+
+// .nav-link{
+//     padding: 37px 0 !important;
+//     margin: 0 30px !important;
+//     font-family: 'Muli', sans-serif;
+//     font-size: 18px;
+//     color: white;
+// }
+// .top{
+
+//     line-height: 80px;
+//     color: #ffffff;
+//     text-decoration: none;
+//     transition: .5s;
+
+//     font-size: 18px;
+
+//     text-align: center;
+//   }
+//   Nav.whitebackground{
+//     background-color: #ffffff;
+//     height: 120px;
+//     width: 100%;
+
+//     text-align: center;
+
+//   }
